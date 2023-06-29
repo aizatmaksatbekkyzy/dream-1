@@ -1,0 +1,60 @@
+.block-1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+.block-1:hover {
+  background-color: green;
+  transition: 1s;
+}
+.block-2 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 255, 0);
+}
+.block-2:active {
+  background-color: aqua;
+}
+a {
+  color: red;
+}
+a:visited {
+  color: rgb(0, 255, 234);
+}
+input:focus {
+  background-color: pink;
+  border: 3px solid;
+  /* outline: none; */
+}
+li:first-child {
+  color: red;
+  background-color: blue;
+  font-size: 30px;
+}
+li:last-child {
+  color: green;
+  background-color: yellow;
+}
+li:nth-child(2) {
+  color: rgb(236, 87, 112);
+  background-color: chartreuse;
+  font-size: 10px;
+}
+h1::after {
+    content: "😍"
+}
+h1::before {
+    content: "🐣"
+}
+p::selection {
+    color: red;
+    background-color: black;
+}
+p::first-letter {
+    font-size: 50px;
+    color:green;
+}
+p::first-line {
+    color: pink;
+font-size:20px ;
+}
